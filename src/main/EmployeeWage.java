@@ -16,12 +16,12 @@ public class EmployeeWage {
         int totalWorkingHours = 0;
         while (totalWorkingDays < DAYS_PER_MONTH && totalWorkingHours + 4 < HOURS_PER_MONTH) {
             switch ((int) (Math.random() * 10) % 3) {
-                case 1:
+                case IS_PRESENT:
                     totalWage += WAGE_PER_HOUR * FULL_DAY_HOUR;
                     totalWorkingDays++;
                     totalWorkingHours += 8;
                     break;
-                case 2:
+                case IS_PART_TIME:
                     totalWage += WAGE_PER_HOUR * PART_TIME_HOUR;
                     totalWorkingDays++;
                     totalWorkingHours += 4;
