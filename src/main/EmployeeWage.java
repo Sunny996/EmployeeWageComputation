@@ -1,8 +1,8 @@
 package main;
 
 public class EmployeeWage {
-    public int final IS_PRESENT=1;
-    public int final IS_ABSENT=0;
+    public final int IS_PRESENT=1;
+    public final int IS_ABSENT=0;
     public int isEmployeePresent(){
         int attend=(int)(Math.random()*10)%2;
         if(attend==IS_PRESENT)
