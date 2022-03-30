@@ -1,13 +1,13 @@
 package main;
 
 public class EmployeeWage {
-     public int final IS_PRESENT=1;
-    public int final IS_ABSENT=0;
-    public int final WAGE_PER_HOUR=20;
-    public int final FULL_DAY_HOUR=8;
-    public int final PART_TIME_HOUR = 4;
-    public int final IS_PART_TIME = 2;
-    public int final DAYS_PER_MONTH = 20;
+    public final int IS_PRESENT=1;
+    public final int IS_ABSENT=0;
+    public final int WAGE_PER_HOUR=20;
+    public final int FULL_DAY_HOUR=8;
+    public final int PART_TIME_HOUR = 4;
+    public final int IS_PART_TIME = 2;
+    public final int DAYS_PER_MONTH = 20;
 
     public int empDailyWage() {
         int totalWage = 0;
