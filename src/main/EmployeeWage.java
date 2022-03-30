@@ -1,10 +1,10 @@
 package main;
 
 public class EmployeeWage {
-    public int final IS_PRESENT=1;
-    public int final IS_ABSENT=0;
-    public int final WAGE_PER_HOUR=20;
-    public int final FULL_DAY_HOUR=8;
+    public final int IS_PRESENT=1;
+    public final int IS_ABSENT=0;
+    public final int WAGE_PER_HOUR=20;
+    public final int FULL_DAY_HOUR=8;
 
         public int empDailyWage(){
         int dailyWage=0;
